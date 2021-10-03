@@ -1,2 +1,2 @@
 # HAD_channel_estimation
-The source code of paper "A Deep Learning Based Channel Estimation Framework in Hybrid Analog-Digital Massive MIMO Systems"
+The source code of paper "Deep Learning based Channel Estimation for Massive MIMO with Hybrid Transceivers"
