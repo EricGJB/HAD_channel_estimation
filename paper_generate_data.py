@@ -4,7 +4,7 @@ from scipy import io
 from matplotlib import pyplot as plt
 
 # system parameters
-Nt = 16
+Nt = 64
 Nr = 4
 Lp = 20
 AS = 5
@@ -48,5 +48,5 @@ print(angular_channel_list.shape)
 # plt.plot(np.abs(angular_channel_list[4,1,:,0]))
 
 # directly save the angular domain channel
-io.savemat('./data/paper_10_15_16_4.mat',{'channels':angular_channel_list})
+io.savemat('./data/paper_10_15_64_4.mat',{'channels':angular_channel_list})
 print('Data saved!')
